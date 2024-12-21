@@ -29,7 +29,7 @@ The first step is run Mock is to launch a django service. It serves to monitor r
 > python3 manage.py runserver
 ```
 
-Suppose that everything is fine ([instructions]([https://github.com/m0ck1ng/mock_private/blob/main/README.md#fuzz-linux-kernel-with-healer](https://github.com/SunHao-0/healer/blob/main/README.md)) here), execute following command in a new terminal to start the fuzzing (`-d` specifies the path to disk image, `-k` specifies the path to kernel image and `--ssh-key` specifies the path to ssh key).
+Suppose that everything is fine ([instructions](https://github.com/SunHao-0/healer/blob/main/README.md) here), execute following command in a new terminal to start the fuzzing (`-d` specifies the path to disk image, `-k` specifies the path to kernel image and `--ssh-key` specifies the path to ssh key).
 
 ```
 > healer -d stretch.img --ssh-key stretch.id_rsa -k bzImage
